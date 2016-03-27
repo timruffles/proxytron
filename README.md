@@ -29,8 +29,7 @@ const deproxy = proxy.all({
 });
 
 two.on("A", function(message) {
-  // 'heard A proxied with message "proxied"'
-  console.log("heard A proxied with message " + message);
+  console.log("heard A proxied with message '" + message  + "'");
 });
 
 one.emit("A", "proxied");
