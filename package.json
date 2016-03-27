@@ -12,7 +12,10 @@
     "typecheck": "flow",
     "start": "mocha *.test.js --recursive --watch"
   },
-  "main": "./proxytron",
+  "files": [
+    "proxytron.js"
+  ],
+  "main": "./proxytron.js",
   "keywords": [
     "EventEmitter",
     "proxy",

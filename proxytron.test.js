@@ -1,5 +1,5 @@
 var EventEmitter = require("events").EventEmitter;
-var proxy = require("./proxytron");
+var proxy = require(require("./package.json").main);
 var assert = require("chai").assert;
 
 describe('poxy-proxy', function() {
