@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/timruffles/proxytron.svg?branch=master)](https://travis-ci.org/timruffles/proxytron)
 [![Latest Stable Version](https://img.shields.io/npm/v/proxytron.svg)](https://www.npmjs.com/package/proxytron)
-[![Test Coverage](https://img.shields.io/codecov/c/github/timruffles/proxytron/master.svg)](https://codecov.io/github/timruffles/npm-proxytron?branch=master)
+[![Test Coverage](https://img.shields.io/codecov/c/github/timruffles/proxytron/master.svg)](https://codecov.io/github/timruffles/proxytron?branch=master)
 
 `proxytron` provides proxying between NodeJS `EventEmitter`s. Zero dependencies, ES5+, browser support via browserify or EventEmitter shim.
 
