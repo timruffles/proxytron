@@ -48,7 +48,7 @@ npm install --save proxytron
 
 ## API
 
-### `proxy({ from: EventEmitter, to: EventEmitter, events: { [sourceEvent: string]: targetEvent }}): deproxyFunction`
+#### `proxy({ from: EventEmitter, to: EventEmitter, events: { [sourceEvent: string]: targetEvent }}): deproxyFunction`
 
 Proxies all events in the `events` object that are emitted on `from`. They will be re-emitted with all
 arguments on the emitter `to`.
@@ -58,7 +58,7 @@ to rename the event that will be emitted from `to`.
 
 Call the returned `deproxyFunction` to stop proxying.
 
-### `proxy.all({ from: EventEmitter, to: EventEmitter, rename: { [sourceEvent: string]: targetEvent }}): deproxyFunction`
+#### `proxy.all({ from: EventEmitter, to: EventEmitter, rename: { [sourceEvent: string]: targetEvent }}): deproxyFunction`
 
 Proxies all events emitted by `from`, meaning they will be re-emitted with all arguments on the emitter `to`.
 
